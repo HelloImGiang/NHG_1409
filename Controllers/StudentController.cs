@@ -25,7 +25,7 @@ public IActionResult Create()
 {
     return View();
 }
-[HttpPost]
+[HttpPost] // nhận đc dữ liệu từ view gửi lên
     public IActionResult Create(Student std)   
         {
             string message = std.StudentID + "-";

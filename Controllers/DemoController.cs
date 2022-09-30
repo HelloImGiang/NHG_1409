@@ -9,6 +9,8 @@ namespace NguyenHuongGiang_BTH.Controllers
     {
         //khai bao class theo huong doi tuong
         GiaiPhuongTrinh gpt = new GiaiPhuongTrinh();
+
+        StringProcess strPro = new StringProcess();
         public IActionResult Index()
         {
             return View();
@@ -46,6 +48,79 @@ namespace NguyenHuongGiang_BTH.Controllers
             ViewBag.thongBao=thongBao;
             return View();
         }
-    }
+
+    //RemoveRemainingWhiteSpace: Xoá bỏ ký tự trắng còn thừa trong chuỗi.
+    public IActionResult RemoveSpace()
+        {
+            return View();
+        }
     
+    [HttpPost]
+    public IActionResult RemoveSpace(string strInput)
+        {
+             ViewBag.thongbao= strPro.RemoveRemainingWhiteSpace(strInput);
+            return View();
+        }
+        // UppertoLower: chuyển chuỗi sang in thường.
+        public IActionResult Lower()
+        {
+            return View(); 
+        }
+       [HttpPost]
+        public IActionResult Lower(string strInput )
+        { 
+            ViewBag.thongbao=strPro.UpperToLower(strInput);
+            return View();
+        }
+
+//LowerToUpper: chuyển chuỗi sang in hoa.
+        public IActionResult Upper()
+        {
+            return View(); 
+        }
+       [HttpPost]
+        public IActionResult Upper(string strInput )
+        { 
+            ViewBag.thongbao= strPro.LowerToUpper(strInput);
+            return View();
+        }
+
+    // CapitalizeOneFirstCharacter (string strInput): Viết hoa ký tự đầu tiên của chuỗi.
+    public IActionResult OneFirstChar()
+        {
+            return View(); 
+        }
+       [HttpPost]
+        public IActionResult OneFirstChar(string strInput )
+        { 
+            ViewBag.thongbao= strPro.CapitalizeOneFirstCharacter(strInput);
+            return View();
+        }
+        
+//CapitalizeFirstCharacter(strInput): viết in hoa từng câu
+        public IActionResult FirstChar()
+        {
+            return View(); 
+        }
+       [HttpPost]
+        public IActionResult FirstChar(string strInput )
+        { 
+            ViewBag.thongbao= strPro.CapitalizeFirstCharacter(strInput);
+            return View();
+        }
+//        // RemoveVietnameseAccents (string strInput): Bỏ dấu tiếng việt
+
+        public IActionResult RemoveVietese()
+        {
+            return View(); 
+        }
+       [HttpPost]
+        public IActionResult RemoveVietese(string strInput)
+        { 
+            ViewBag.thongbao= strPro.RemoveVietnameseAccents(strInput);
+            return View();
+        }
+    
+    }   
 }
+

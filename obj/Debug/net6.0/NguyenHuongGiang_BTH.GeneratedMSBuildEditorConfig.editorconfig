@@ -19,8 +19,32 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtb1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/PTPMQL/NguyenHuongGiang_BTH/Views/Demo/FirstChar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtb1xGaXJzdENoYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/PTPMQL/NguyenHuongGiang_BTH/Views/Demo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/PTPMQL/NguyenHuongGiang_BTH/Views/Demo/Lower.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtb1xMb3dlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/PTPMQL/NguyenHuongGiang_BTH/Views/Demo/OneFirstChar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtb1xPbmVGaXJzdENoYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/PTPMQL/NguyenHuongGiang_BTH/Views/Demo/RemoveSpace.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtb1xSZW1vdmVTcGFjZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/PTPMQL/NguyenHuongGiang_BTH/Views/Demo/RemoveVietese.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtb1xSZW1vdmVWaWV0ZXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/PTPMQL/NguyenHuongGiang_BTH/Views/Demo/Upper.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtb1xVcHBlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/PTPMQL/NguyenHuongGiang_BTH/Views/Home/Index.cshtml]
